@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tests automatisés</title>
+    <meta name="description" content="Case study page of Project" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/default-profile.png"
+              alt="Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Peyo Gallato</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Accueil </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link"> Projet </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./project-1.html#description" class="header__link"> Description </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./project-1.html#travaux" class="header__link"> Travaux réalisés </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./project-1.html#competence" class="header__link"> Compétences aquises </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./project-1.html#outils" class="header__link"> Outils utilisés </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">Tests automatisés</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            Ce stage de six semaines a consisté en la mise en place d'une librairie Playwright pour permettre l'automatisation de robot de tests automatisé sur des applications WEB de la société CNP Assurances.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content" id="description">
+          <div class="project-details__showcase-img-cont">
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Description</h3>
+              <p class="project-details__desc-para">
+                Mon stage s'est déroulé au sein de CNP Assurances à Angers.
+                Je me suis trouvé dans l'équipe <strong>Tests automatisés</strong> tout au long de ce stage.
+              </p>
+              <p class="project-details__desc-para">
+                Le sujet principal du stage a consisté à mettre en place une <strong>librairie Playwright</strong> dans le socle automatisation
+                écrit en Robot Framework afin de remplacer l’actuelle librairie Selenium. La
+                CNP a souhaité passer à cette nouvelle librairie car certains robots ne <strong>fonctionnaient pas</strong>
+                totalement avec la librairie Selenium notamment quand les applications étaient amenées à utiliser
+                des pop-ups. De ce fait, les applications ne pouvaient pas être testées en mode automatisé
+                ce qui obligeait à faire des tests manuels. Ces tests manuels pouvaient <strong>prendre du temps</strong>.
+                Il faut noter que la nouvelle librairie mise en place <strong>ne remplace pas</strong> totalement l’ancienne.
+                Elle permet simplement d’avoir une deuxième option si nécessaire.
+              </p>
+              <p class="project-details__desc-para">
+                Un second objectif a été de renforcer les <strong>tests unitaires</strong> existants pour la librairie Selenium et les adapter
+                si nécessaire à la librairie Playwright.
+              </p>
+              <p class="project-details__desc-para" id="travaux">
+                Le dernier objectif était de mettre en place un socle automatisation avec la librairie <strong>Appium</strong> pour permettre des tests automatisés pour mobile.
+              </p>
+            </div>
+            <h3 class="project-details__content-title">Travaux réalisés</h3>
+            <p class="project-details__desc-para">
+              Les travaux principaux réalisés durant ce stage ont été les suivants.
+            </p>
+            <h4 class="project-details__desc-para">1. Réalisation du premier robot de test</h4>
+            <div class="text-image">
+              <p class="project-details__desc-para">
+                J'ai d'abord commencé par <strong>automatiser un site WEB</strong> pour voir le fonctionnement de Robot Framework et des librairies Selenium et Playwright.
+              </p>
+              <img src="assets/gif/robot.gif">
+            </div>
+            <h4 class="project-details__desc-para">2. Création du socle Playwright</h4>
+            <p class="project-details__desc-para">
+              Ensuite, j'ai procédé à la <strong>création du socle Playwright</strong> en utilisant le socle Selenium déjà présent et en reproduisant le comportement attendu.
+             Toutes les fonctions existantes pour Selenium ont été reproduites avec la librairie Playwright.
+            </p>
+            <h4 class="project-details__desc-para">3. Création d'un robot de test sur une application CNP</h4>
+            <p class="project-details__desc-para">
+              Une équipe de la CNP a fait une demande de création de robot pour <strong>automatiser un scénario de test</strong>. Ce robot fait donc un parcours
+              précis en fonction d'un jeux de données et remplit les champs que le testeur souhaite alimenter.
+            </p>
+            <h4 class="project-details__desc-para">4. Renforcement de tests unitaires</h4>
+            <p class="project-details__desc-para">
+              J'ai repris une suite de test unitaire existante qui possédait 88 tests. J'ai cherché de nouveaux tests pertinents à ajouter pour sécuriser
+              la validité des socles Playwright et Selenium. Je suis passé de <strong>88 à 180</strong> TUs.
+            </p>
+            <h4 class="project-details__desc-para">5. Création du socle Appium</h4>
+            <p class="project-details__desc-para" id="competence">
+              Ma dernière tâche a été d'initialiser un <strong>socle Appium</strong> pour permettre de faire des tests automatisés sur mobile.
+              Cette initialisation permet déjà de faire des tests basiques sur mobile.
+            </p>
+            <h3 class="project-details__content-title">Compétences aquises</h3>
+            <p class="project-details__desc-para" id="outils">
+              Ce stage m'a permis d'apprendre à utiliser de nouveaux outils en lisant de la <strong>documentation</strong> en ligne.
+              Il m'a aussi appris à <strong>automatiser des tests</strong> à l'aide de Robot Framework. Les développements effectués m'ont permis de découvrir
+              la méthodologie <strong>Test Driven Development</strong>.
+            </p>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Outils utilisés</h3>
+              <div class="skills">
+                <div class="skills__skill">Robot Framework</div>
+                <div class="skills__skill">Selenium</div>
+                <div class="skills__skill">Playwright</div>
+                <div class="skills__skill">Appium</div>
+                <div class="skills__skill">Jenkins</div>
+                <div class="skills__skill">Visual Studio Code</div>
+                <div class="skills__skill">GitLab</div>
+                <div class="skills__skill">Confluence</div>
+                <div class="skills__skill">Sauce Labs</div>
+                <div class="skills__skill">Excel</div>
+              </div>
+            </div>
+            <div class="project-details__links">
+              <h3 class="project-details__content-title">Voir plus</h3>
+              <a
+                href="/assets/pdf/rapport_stage_pgallato.pdf"
+                class="btn btn--med btn--theme project-details__links-btn"
+                target="_blank"
+                >rapport de stage</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/peyo-gallato-5b95a2345/">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/Pgallato">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Peyo Gallato</h4>
+            <p class="main-footer__short-desc">
+              Je suis étudiant en BTS SIO et voici mon portfolio
+            </p>
+          </div>
+        </div>
+        <div class="main-footer__lower">
+          &copy; Copyright 2025. Made by Peyo Gallato
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>

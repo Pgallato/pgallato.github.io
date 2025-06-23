@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio de Peyo Gallato</title>
+    <meta name="description" content="Portfolio Template for Developer" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/default-profile.png"
+              alt="Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Peyo Gallato</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Accueil </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">A propos </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projets
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Accueil </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> A propos </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projets </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Peyo Gallato</h1>
+        <h2 class="heading-sec__main">Bienvenue sur mon Portfolio</h2>
+        <div class="home-hero__cta">
+          <a href="./#projects" class="btn btn--bg">Projets</a>
+        </div>
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="https://www.linkedin.com/in/peyo-gallato-5b95a2345/" class="home-hero__social-icon-link" target="_blank">
+            <img
+              src="./assets/png/linkedin-ico.png"
+              alt="icon linkedin"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://github.com/Pgallato" class="home-hero__social-icon-link home-hero__social-icon-link--bd-none" target="_blank">
+            <img
+              src="./assets/png/github-ico.png"
+              alt="icon github"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">A propos</span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Présentation</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                Bonjour, je m'appelle <strong>Peyo Gallato</strong>
+                et je suis étudiant au lycée <strong>Chevrollier</strong> à Angers.
+                Après une spécialité NSI pour mon baccalauréat, je suis désormais en première année de <strong> BTS SIO </strong> (Services Informatiques aux Organisations).
+                J'ai choisi l'option <strong>SLAM</strong> (Solutions Logicielles et Application Métier).
+                Pour simplifier, c'est l'option de développement.
+              </p>
+            </div>
+            <a href="/assets/pdf/CV_Peyo_GALLATO.pdf" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Mon CV</a>
+            <h3 class="about__content-title" id="title_bts">Le BTS SIO</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                Le Brevet de Technicien Supérieur aux Services Informatiques aux Organisations (BTS SIO)
+                s'adresse à ceux qui souhaitent se former en deux ans aux métiers d'administrateur réseau ou de
+                développeur. Ce diplôme permet par la suite d'intégrer directement le marché du travail ou de continuer ses études,
+                dans le domaine de l'informatique.
+              </p>
+              <h4 class="about__content-details-para">L'option SLAM</h4>
+              <p class="about__content-details-para">
+                L’option Solutions Logicielles et Applications Métiers forme des spécialistes des logiciels
+                (rédaction d’un cahier des charges, formulation des besoins et spécifications, développement,
+                intégration au sein de la société).
+              </p>
+            </div>
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">Mes compétences</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">PHP</div>
+              <div class="skills__skill">C#</div>
+              <div class="skills__skill">Python</div>
+              <div class="skills__skill">Robot Framework</div>
+              <div class="skills__skill">Selenium</div>
+              <div class="skills__skill">Playwright</div>
+              <div class="skills__skill">Appium</div>
+              <div class="skills__skill">SQL</div>
+              <div class="skills__skill">NoSQL</div>
+              <div class="skills__skill">MySQL</div>
+              <div class="skills__skill">MariaDB</div>
+              <div class="skills__skill">GIT</div>
+              <div class="skills__skill">POO</div>
+              <div class="skills__skill">Serveur Apache</div>
+              <div class="skills__skill">MCD / MLR</div>
+              <div class="skills__skill">UML</div>
+              <div class="skills__skill">Test Driven Development</div>
+              <div class="skills__skill">Tests unitaires</div>
+              <div class="skills__skill">Tests automatisés</div>
+            </div>
+            <h3 class="about__content-title" id="outils_maitrise">Outils maitrisés</h3>
+            <div class="skills">
+              <div class="skills__skill">Visual Studio Code</div>
+              <div class="skills__skill">Visual Studio 2022</div>
+              <div class="skills__skill">WinDesign</div>
+              <div class="skills__skill">GitHub</div>
+              <div class="skills__skill">GitLab</div>
+              <div class="skills__skill">phpMyAdmin</div>
+              <div class="skills__skill">Wordpress</div>
+              <div class="skills__skill">VMware</div>
+              <div class="skills__skill">XAMPP</div>
+              <div class="skills__skill">WinSCP</div>
+              <div class="skills__skill">Spyder</div>
+              <div class="skills__skill">Pyzo</div>
+              <div class="skills__skill">Docker</div>
+              <div class="skills__skill">Windows</div>
+              <div class="skills__skill">Linux</div>
+              <div class="skills__skill">Jenkins</div>
+              <div class="skills__skill">Sauce Labs</div>
+              <div class="skills__skill">Confluence</div>
+              <div class="skills__skill">Suite Office</div>
+              <div class="skills__skill">Notepad++</div>
+            </div>
+          </div>
+        </div>
+        <div class="certifications">
+          <h3 class="about__content-title">Certifications</h3>
+          <div class="certif">
+              <img src="assets/png/certif_pix.png" id="pix">
+              <img src="assets/png/certif_secnum.png" id="secnum">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projets</span>
+          <span class="heading-sec__sub">
+            Voici une liste de mes projets
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/projet_test_auto.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">[STAGE] Tests automatisés</h3>
+              <p class="projects__row-content-desc">
+                Implémentation de la librairie Playwright sur Robot Framework pour automatiser des tests sur les applications WEB de CNP Assurances.
+              </p>
+              <a href="./project-1.html" class="btn btn--med btn--theme dynamicBgClr" target="_blank">
+                Voir plus
+              </a>
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/projet_angerscoot.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Application bureau</h3>
+              <p class="projects__row-content-desc">
+                Développement d'une application C# pour l'entreprise fictive AngerScoot permettant de gérer le parc de véhicules de l'entreprise et ses employés.
+              </p>
+              <a
+                href="./project-2.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Voir plus</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/projet_aid1jeun.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Création site WEB sous WordPress</h3>
+              <p class="projects__row-content-desc">
+                Création d'un site pour l'entreprise fictive Aid'1jeun à l'aide du CMS WordPress. Création d'un manuel technique d'utilisation et de maintenance du site.
+              </p>
+              <a
+                href="./project-3.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Voir plus</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            Si vous souhaitez me contactez, merci de le faire grâce au formulaire si dessous !
+          </span>
+        </h2>
+        <div class="contact__form-container">
+          <form action="#" class="contact__form">
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="name">Nom</label>
+              <input
+                required
+                placeholder="Saisissez Votre Nom"
+                type="text"
+                class="contact__form-input"
+                name="name"
+                id="name"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="email">Email</label>
+              <input
+                required
+                placeholder="Saisissez Votre Email"
+                type="text"
+                class="contact__form-input"
+                name="email"
+                id="email"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="message">Message</label>
+              <textarea
+                required
+                cols="30"
+                rows="10"
+                class="contact__form-input"
+                placeholder="Saisissez Votre Message"
+                name="message"
+                id="message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn--theme contact__btn">
+              Envoyer
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/peyo-gallato-5b95a2345/">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/Pgallato">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Peyo Gallato</h4>
+            <p class="main-footer__short-desc">
+              Je suis étudiant en BTS SIO et voici mon portfolio
+            </p>
+          </div>
+        </div>
+        <div class="main-footer__lower">
+          &copy; Copyright 2025. Made by Peyo Gallato
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
